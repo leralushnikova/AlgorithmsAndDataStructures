@@ -22,7 +22,7 @@ public class ZigzagConversion {
             if (currentRow == 0 || currentRow == numRows - 1) {
                 goingDown = !goingDown;
             }
-            currentRow += goingDown ? 1 : -1;
+            if(numRows != 1) currentRow += goingDown ? 1 : -1;
         }
         StringBuilder result = new StringBuilder();
         for (StringBuilder row : rows) {
