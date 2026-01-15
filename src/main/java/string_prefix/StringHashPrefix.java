@@ -1,4 +1,4 @@
-package string_hash;
+package string_prefix;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * Алгоритм хеширования префикса
  */
-public class StringPrefix {
+public class StringHashPrefix {
     private static final int p = 1000000007;
     private static final int x_ = 257;
     private static int MIN_LENGTH = Integer.MAX_VALUE;

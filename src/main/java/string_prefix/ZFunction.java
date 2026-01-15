@@ -1,4 +1,4 @@
-package string_hash;
+package string_prefix;
 
 import java.io.BufferedReader;
 import java.io.IOException;
